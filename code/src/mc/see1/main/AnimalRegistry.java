@@ -21,7 +21,9 @@ public class AnimalRegistry implements AutoCloseable {
         animals.add(animal);
         counter++;
     }
-
+    public void add() {//Не нужен так как сделан addAnimal
+        counter++;
+    }
     public void listCommands(Animal animal) {
         System.out.println("Команды для животного:");
         for (String command : animal.getCommands()) {

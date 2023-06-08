@@ -2,7 +2,7 @@ package mc.see1.main.animals;
 
 import java.util.List;
 
-// Класс Лошадь наследуется от Вьючное Животное
+
 public class Horse extends PackAnimal {
     private int speed;
 

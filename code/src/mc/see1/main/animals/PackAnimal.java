@@ -4,7 +4,7 @@ import mc.see1.main.Animal;
 
 import java.util.List;
 
-// Класс Вьючное Животное наследуется от Животное
+
 public class PackAnimal extends Animal {
     private String color;
 

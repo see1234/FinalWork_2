@@ -4,7 +4,6 @@ import mc.see1.main.animals.HomeAnimal;
 
 import java.util.List;
 
-// Класс Хомяк наследуется от Домашнее Животное
 public class Hamster extends HomeAnimal {
     public Hamster(String name, String birthDate, String say, String color, List<String> commands) {
         super(name, birthDate, say, color, commands);
